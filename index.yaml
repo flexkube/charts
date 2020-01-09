@@ -1,3 +1,39 @@
 apiVersion: v1
-entries: {}
-generated: "2020-01-09T22:56:00.920072461+01:00"
+entries:
+  kube-apiserver:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2020-01-09T23:24:15.452126193+01:00"
+    description: kube-apiserver Helm chart.
+    digest: 8ff918f65fb654324334a130ff755e4ad39f9c6af7375dbc5dedb196198bcf88
+    icon: https://flexkube.github.io/assets/logo.png
+    name: kube-apiserver
+    type: application
+    urls:
+    - https://flexkube.github.io/charts/kube-apiserver-0.1.0.tgz
+    version: 0.1.0
+  kubelet-rubber-stamp:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2020-01-09T23:24:15.452395653+01:00"
+    description: A Helm chart for Kubelet Rubber Stamp
+    digest: e18a97a08535c6d87f7a1be5742ebe562cc6d05237dcc1f12424669d9df495b3
+    icon: https://flexkube.github.io/assets/logo.png
+    name: kubelet-rubber-stamp
+    type: application
+    urls:
+    - https://flexkube.github.io/charts/kubelet-rubber-stamp-0.1.0.tgz
+    version: 0.1.0
+  kubernetes:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2020-01-09T23:24:15.462155936+01:00"
+    description: Kubernetes self-hosted control plane Helm chart.
+    digest: ebf9aee456bb31d2a855469b9d6cceb6dfb29f9ed6736736b74831d4d3a9dc8f
+    icon: https://flexkube.github.io/assets/logo.png
+    name: kubernetes
+    type: application
+    urls:
+    - https://flexkube.github.io/charts/kubernetes-0.1.2.tgz
+    version: 0.1.2
+generated: "2020-01-09T23:24:15.451556648+01:00"
