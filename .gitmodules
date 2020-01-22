@@ -1,0 +1,12 @@
+[submodule "calico-helm-chart"]
+	path = calico-helm-chart
+	url = git@github.com:flexkube/calico-helm-chart.git
+[submodule "kubernetes-helm-chart"]
+	path = kubernetes-helm-chart
+	url = git@github.com:flexkube/kubernetes-helm-chart.git
+[submodule "kube-apiserver-helm-chart"]
+	path = kube-apiserver-helm-chart
+	url = git@github.com:flexkube/kube-apiserver-helm-chart.git
+[submodule "kubelet-rubber-stamp-helm-chart"]
+	path = kubelet-rubber-stamp-helm-chart
+	url = git@github.com:flexkube/kubelet-rubber-stamp-helm-chart.git
