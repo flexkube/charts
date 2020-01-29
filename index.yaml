@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   calico:
   - apiVersion: v2
+    appVersion: 3.12.0
+    created: "2020-01-29T12:51:20.283064767+01:00"
+    description: A Helm chart for Calico
+    digest: a8d7dbceb42182823966c1f5451b3b7786b55833212b20f6db9f07c6eb10fb93
+    name: calico
+    type: application
+    urls:
+    - https://flexkube.github.io/charts/calico-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 3.11.2
-    created: "2020-01-22T11:25:04.828203069+01:00"
+    created: "2020-01-29T12:51:20.282564794+01:00"
     description: A Helm chart for Calico
     digest: 90568b01090fb73053edc96d031f44041c6912212be4e408907cf746e5b0eac4
     name: calico
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 3.11.1
-    created: "2020-01-22T11:25:04.827480739+01:00"
+    created: "2020-01-29T12:51:20.281929026+01:00"
     description: A Helm chart for Calico
     digest: 608670a367a5598dc61932ac4c299073ecd60722b7fc993613520c9c285e2bfd
     name: calico
@@ -24,7 +34,7 @@ entries:
   kube-apiserver:
   - apiVersion: v2
     appVersion: 1.17.2
-    created: "2020-01-22T11:25:04.829807416+01:00"
+    created: "2020-01-29T12:51:20.286016345+01:00"
     description: kube-apiserver Helm chart.
     digest: 9b95749a28251644335b057a69afaa4f056f7edd499ab498cf882d7f1144819d
     icon: https://flexkube.github.io/assets/logo.png
@@ -35,7 +45,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2020-01-22T11:25:04.829363603+01:00"
+    created: "2020-01-29T12:51:20.285589605+01:00"
     description: kube-apiserver Helm chart.
     digest: ab8b34ab6db7db604bee1363dba01d296db65df9d9a17757eba5acc7f3a228ee
     icon: https://flexkube.github.io/assets/logo.png
@@ -46,7 +56,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2020-01-22T11:25:04.82891125+01:00"
+    created: "2020-01-29T12:51:20.284969937+01:00"
     description: kube-apiserver Helm chart.
     digest: 8ff918f65fb654324334a130ff755e4ad39f9c6af7375dbc5dedb196198bcf88
     icon: https://flexkube.github.io/assets/logo.png
@@ -58,7 +68,18 @@ entries:
   kubelet-rubber-stamp:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2020-01-22T11:25:04.830092706+01:00"
+    created: "2020-01-29T12:51:20.286844789+01:00"
+    description: A Helm chart for Kubelet Rubber Stamp
+    digest: 091570f72251eb3c660286592b9c198e10ac9b5decabe045fef58d31a5f776b5
+    icon: https://flexkube.github.io/assets/logo.png
+    name: kubelet-rubber-stamp
+    type: application
+    urls:
+    - https://flexkube.github.io/charts/kubelet-rubber-stamp-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2020-01-29T12:51:20.286512627+01:00"
     description: A Helm chart for Kubelet Rubber Stamp
     digest: c0cea4e43290b17d1385ac3765573f00dd62cb335dfdaf3bf3c76570a5f7e140
     icon: https://flexkube.github.io/assets/logo.png
@@ -70,7 +91,7 @@ entries:
   kubernetes:
   - apiVersion: v2
     appVersion: 1.17.2
-    created: "2020-01-22T11:25:04.847050911+01:00"
+    created: "2020-01-29T12:51:20.309912758+01:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: 292a99a7ac57d7d2da0304f87183b411f82122d0377358d765510c562dabb95c
     icon: https://flexkube.github.io/assets/logo.png
@@ -81,7 +102,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2020-01-22T11:25:04.846579011+01:00"
+    created: "2020-01-29T12:51:20.309395811+01:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: 98a50fef4083eeb5b787c4bf24f259ab193e8c1afc88071a11e3e0085b2348ce
     icon: https://flexkube.github.io/assets/logo.png
@@ -92,7 +113,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2020-01-22T11:25:04.838147651+01:00"
+    created: "2020-01-29T12:51:20.296771227+01:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: ebf9aee456bb31d2a855469b9d6cceb6dfb29f9ed6736736b74831d4d3a9dc8f
     icon: https://flexkube.github.io/assets/logo.png
@@ -101,4 +122,4 @@ entries:
     urls:
     - https://flexkube.github.io/charts/kubernetes-0.1.2.tgz
     version: 0.1.2
-generated: "2020-01-22T11:25:04.827031346+01:00"
+generated: "2020-01-29T12:51:20.281152014+01:00"
