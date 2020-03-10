@@ -145,7 +145,18 @@ entries:
   kubernetes:
   - apiVersion: v2
     appVersion: 1.17.3
-    created: "2020-02-24T02:21:01.915979301+01:00"
+    created: "2020-03-11T00:47:53.614564266+01:00"
+    description: Kubernetes self-hosted control plane Helm chart.
+    digest: df37e53da3f41a4da812c827daa0ac4e9c627c925c03a9ecd81ff30e912b028d
+    icon: https://flexkube.github.io/assets/logo.png
+    name: kubernetes
+    type: application
+    urls:
+    - https://flexkube.github.io/charts/kubernetes-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
+    appVersion: 1.17.3
+    created: "2020-03-11T00:47:53.6140175+01:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: ad3d3e4926dc7857f0555bdd9e3aef144384de60509f1539e38b76ab134df8b2
     icon: https://flexkube.github.io/assets/logo.png
@@ -220,4 +231,4 @@ entries:
     urls:
     - https://flexkube.github.io/charts/kubernetes-0.1.2.tgz
     version: 0.1.2
-generated: "2020-02-24T02:21:01.866012969+01:00"
+generated: "2020-03-11T00:47:53.6054859+01:00"
