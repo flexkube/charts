@@ -10,3 +10,6 @@
 [submodule "kubelet-rubber-stamp-helm-chart"]
 	path = kubelet-rubber-stamp-helm-chart
 	url = https://github.com/flexkube/kubelet-rubber-stamp-helm-chart.git
+[submodule "hcloud-csi-helm-chart"]
+	path = hcloud-csi-helm-chart
+	url = git@github.com:flexkube/hcloud-csi-helm-chart.git
