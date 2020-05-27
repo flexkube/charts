@@ -13,3 +13,9 @@
 [submodule "hcloud-csi-helm-chart"]
 	path = hcloud-csi-helm-chart
 	url = https://github.com/flexkube/hcloud-csi-helm-chart.git
+[submodule "tls-bootstrapping-helm-chart"]
+	path = tls-bootstrapping-helm-chart
+	url = https://github.com/flexkube/tls-bootstrapping-helm-chart.git
+[submodule "kube-proxy-helm-chart"]
+	path = kube-proxy-helm-chart
+	url = https://github.com/flexkube/kube-proxy-helm-chart.git
