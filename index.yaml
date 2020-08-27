@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   calico:
   - apiVersion: v2
+    appVersion: 3.15.2
+    created: "2020-08-27T15:34:52.561967003+02:00"
+    description: A Helm chart for Calico
+    digest: 3174179316cc38bf1ea864d7b72eebf8fcca2c31b24232d8638614107df60eff
+    name: calico
+    type: application
+    urls:
+    - https://flexkube.github.io/charts/calico-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
     appVersion: 3.15.1
-    created: "2020-07-31T10:00:59.056028531+02:00"
+    created: "2020-08-27T15:34:52.560992624+02:00"
     description: A Helm chart for Calico
     digest: acf86719018a9d767b68ffadc2a391f01e1571a88c660e8d51cb31239cf1a1ee
     name: calico
@@ -13,7 +23,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 3.14.0
-    created: "2020-07-31T10:00:59.054984834+02:00"
+    created: "2020-08-27T15:34:52.559727512+02:00"
     description: A Helm chart for Calico
     digest: 0c63e6217e6e28b5e5756099cb08105752917a6d49feef24e86b677b5f2f58f6
     name: calico
@@ -23,7 +33,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 3.14.0
-    created: "2020-07-31T10:00:59.054340164+02:00"
+    created: "2020-08-27T15:34:52.559245553+02:00"
     description: A Helm chart for Calico
     digest: 4564e8441af6736e04c6a8f928b75a5231d2086215bd971a0c7727f1e8906372
     name: calico
@@ -33,7 +43,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 3.13.3
-    created: "2020-07-31T10:00:59.053740552+02:00"
+    created: "2020-08-27T15:34:52.558705739+02:00"
     description: A Helm chart for Calico
     digest: 9c05d191222f0c381d1d8f200d09ce2e6896a625e53a2c762568b62ae13d1540
     name: calico
@@ -43,7 +53,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 3.13.3
-    created: "2020-07-31T10:00:59.053052611+02:00"
+    created: "2020-08-27T15:34:52.558245284+02:00"
     description: A Helm chart for Calico
     digest: e36a51965c4ce11bf8455ce039c45ed2825d1714a86138639cd021d3194f728d
     name: calico
@@ -53,7 +63,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 3.13.2
-    created: "2020-07-31T10:00:59.052405095+02:00"
+    created: "2020-08-27T15:34:52.55778416+02:00"
     description: A Helm chart for Calico
     digest: 0c0c4a56dc65c05731f75e89e456529944c2059ca19f4433a921e3859df8cf14
     name: calico
@@ -63,7 +73,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 3.13.1
-    created: "2020-07-31T10:00:59.051571125+02:00"
+    created: "2020-08-27T15:34:52.557292283+02:00"
     description: A Helm chart for Calico
     digest: 81616cc0973581ac2b4496d5259cf5feaa02ce4fc6811d54f1c54d9e89d685f9
     name: calico
@@ -73,7 +83,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 3.12.0
-    created: "2020-07-31T10:00:59.050837405+02:00"
+    created: "2020-08-27T15:34:52.556810246+02:00"
     description: A Helm chart for Calico
     digest: 7a843a11bbfe76558912ac494c24e948730115ad4815eaed3e969bd7e82c2a9b
     name: calico
@@ -83,7 +93,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 3.12.0
-    created: "2020-07-31T10:00:59.049840097+02:00"
+    created: "2020-08-27T15:34:52.549186594+02:00"
     description: A Helm chart for Calico
     digest: a8d7dbceb42182823966c1f5451b3b7786b55833212b20f6db9f07c6eb10fb93
     name: calico
@@ -93,7 +103,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 3.11.2
-    created: "2020-07-31T10:00:59.041719292+02:00"
+    created: "2020-08-27T15:34:52.54812531+02:00"
     description: A Helm chart for Calico
     digest: 90568b01090fb73053edc96d031f44041c6912212be4e408907cf746e5b0eac4
     name: calico
@@ -103,7 +113,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 3.11.1
-    created: "2020-07-31T10:00:59.041044998+02:00"
+    created: "2020-08-27T15:34:52.547566264+02:00"
     description: A Helm chart for Calico
     digest: 608670a367a5598dc61932ac4c299073ecd60722b7fc993613520c9c285e2bfd
     name: calico
@@ -114,9 +124,9 @@ entries:
   hcloud-csi:
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2020-07-31T10:00:59.059517904+02:00"
+    created: "2020-08-27T15:34:52.565161508+02:00"
     description: A Helm chart for Container Storage Interface driver for Hetzner Cloud.
-    digest: ad75e6702e800b0fbd985989e7b79d6799acea08a2db06e12fa9435af6dfab5e
+    digest: eba56014a100dd0e308a745ba80bb5e87e1c3c92bc54e37932aae2263a0b5e0f
     name: hcloud-csi
     type: application
     urls:
@@ -124,7 +134,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2020-07-31T10:00:59.059281757+02:00"
+    created: "2020-08-27T15:34:52.564949813+02:00"
     description: A Helm chart for Container Storage Interface driver for Hetzner Cloud.
     digest: c01bd97fe28695006d9a89efefaa02ceb714d6591025850948859401b17487e4
     name: hcloud-csi
@@ -134,7 +144,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2020-07-31T10:00:59.058876071+02:00"
+    created: "2020-08-27T15:34:52.564566164+02:00"
     description: A Helm chart for Container Storage Interface driver for Hetzner Cloud.
     digest: ba2777f138fb065728e713ce1833e0ea04f27129bc2976357d7821223648c7c5
     name: hcloud-csi
@@ -144,7 +154,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2020-07-31T10:00:59.058489107+02:00"
+    created: "2020-08-27T15:34:52.564228327+02:00"
     description: A Helm chart for Container Storage Interface driver for Hetzner Cloud.
     digest: d066b1243b9121dad55b6344ed46c3a63180fa8437f2ea08ba3b04ed27624669
     name: hcloud-csi
@@ -154,7 +164,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.2.3
-    created: "2020-07-31T10:00:59.057484435+02:00"
+    created: "2020-08-27T15:34:52.563857662+02:00"
     description: A Helm chart for Container Storage Interface driver for Hetzner Cloud.
     digest: 98afb9dd50cb743a7eb126baad3285ea1d0522ed9fb1eab59f503aa7e9bb8de4
     name: hcloud-csi
@@ -164,7 +174,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.2.3
-    created: "2020-07-31T10:00:59.057133756+02:00"
+    created: "2020-08-27T15:34:52.563426025+02:00"
     description: A Helm chart for Container Storage Interface driver for Hetzner Cloud.
     digest: 99a5059708f885eef99da0a7cd80f1613db96e128a12254279fa212d4fa44f1f
     name: hcloud-csi
@@ -174,7 +184,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.2.3
-    created: "2020-07-31T10:00:59.056773521+02:00"
+    created: "2020-08-27T15:34:52.563062287+02:00"
     description: A Helm chart for Container Storage Interface driver for Hetzner Cloud.
     digest: c1b4fa862e4ff18366aa9b4438b11465456e636833257b5a3e3aa93f6afd27ae
     name: hcloud-csi
@@ -184,7 +194,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.2.3
-    created: "2020-07-31T10:00:59.056409025+02:00"
+    created: "2020-08-27T15:34:52.562335568+02:00"
     description: A Helm chart for Container Storage Interface driver for Hetzner Cloud.
     digest: a9302b468b9095183a049f96c7f86b49c10713fee3f6a82d210da3c3b878c6b7
     name: hcloud-csi
@@ -194,8 +204,19 @@ entries:
     version: 0.1.0
   kube-apiserver:
   - apiVersion: v2
+    appVersion: 1.19.0
+    created: "2020-08-27T15:34:52.575298839+02:00"
+    description: kube-apiserver Helm chart.
+    digest: cb9c3d7e9c3492699ecc821663ebf279b19556ba00436bceee8d9c7ae8710d74
+    icon: https://flexkube.github.io/assets/logo.png
+    name: kube-apiserver
+    type: application
+    urls:
+    - https://flexkube.github.io/charts/kube-apiserver-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 1.18.6
-    created: "2020-07-31T10:00:59.06440921+02:00"
+    created: "2020-08-27T15:34:52.568831975+02:00"
     description: kube-apiserver Helm chart.
     digest: 18b64146b64464809f95ec24b9a2a667a09fe2adc56a3518b5abd6476c035bc5
     icon: https://flexkube.github.io/assets/logo.png
@@ -206,7 +227,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 1.18.4
-    created: "2020-07-31T10:00:59.063647373+02:00"
+    created: "2020-08-27T15:34:52.568182104+02:00"
     description: kube-apiserver Helm chart.
     digest: 214a0a28f4b12a94e7bc4520f2a487b2a18170de009d3284e1db777f0fdea758
     icon: https://flexkube.github.io/assets/logo.png
@@ -217,7 +238,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 1.18.3
-    created: "2020-07-31T10:00:59.062538275+02:00"
+    created: "2020-08-27T15:34:52.567531948+02:00"
     description: kube-apiserver Helm chart.
     digest: 3e0ea0a84bb16b09c1748b4c4d19eed9cb71f1447d5162980efb2d9da3cbdc45
     icon: https://flexkube.github.io/assets/logo.png
@@ -228,7 +249,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 1.18.3
-    created: "2020-07-31T10:00:59.061518993+02:00"
+    created: "2020-08-27T15:34:52.566914531+02:00"
     description: kube-apiserver Helm chart.
     digest: 62db43b0d7090f3d873d7b1aabe6cd6323a5011a1841e5f262cf0913d5dfcc5a
     icon: https://flexkube.github.io/assets/logo.png
@@ -239,7 +260,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.18.2
-    created: "2020-07-31T10:00:59.071259106+02:00"
+    created: "2020-08-27T15:34:52.574655966+02:00"
     description: kube-apiserver Helm chart.
     digest: 7596ba9283d05134857064f397aae2b9221faa190f1957b4682ba8c4274132de
     icon: https://flexkube.github.io/assets/logo.png
@@ -250,7 +271,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2020-07-31T10:00:59.069674328+02:00"
+    created: "2020-08-27T15:34:52.573764649+02:00"
     description: kube-apiserver Helm chart.
     digest: 4278dbf59fcd08abe290fd697419df562ae427ceeda332ee5460287f3c33b5b1
     icon: https://flexkube.github.io/assets/logo.png
@@ -261,7 +282,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.17.4
-    created: "2020-07-31T10:00:59.068736243+02:00"
+    created: "2020-08-27T15:34:52.572819392+02:00"
     description: kube-apiserver Helm chart.
     digest: c0a5184199007ffe0253051675fed57ee2b846b37d9cd16bf7efd213017e94db
     icon: https://flexkube.github.io/assets/logo.png
@@ -272,7 +293,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.17.3
-    created: "2020-07-31T10:00:59.06790742+02:00"
+    created: "2020-08-27T15:34:52.571726077+02:00"
     description: kube-apiserver Helm chart.
     digest: 3a922a694dd322a7efab421264f68e2d4b6f64e25dd43de17f289fdb5db1f9ed
     icon: https://flexkube.github.io/assets/logo.png
@@ -283,7 +304,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.17.3
-    created: "2020-07-31T10:00:59.067043846+02:00"
+    created: "2020-08-27T15:34:52.570812772+02:00"
     description: kube-apiserver Helm chart.
     digest: 79430e2af9effbb6cd37f0f70c6330436391106d3971e9b23c42acf3ada71641
     icon: https://flexkube.github.io/assets/logo.png
@@ -294,7 +315,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.17.2
-    created: "2020-07-31T10:00:59.066157633+02:00"
+    created: "2020-08-27T15:34:52.570195569+02:00"
     description: kube-apiserver Helm chart.
     digest: b284a9e532e156497af67ebacabb8e8e5e7e8292507ff79938160a1773f71c84
     icon: https://flexkube.github.io/assets/logo.png
@@ -305,7 +326,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.17.2
-    created: "2020-07-31T10:00:59.065328421+02:00"
+    created: "2020-08-27T15:34:52.569419401+02:00"
     description: kube-apiserver Helm chart.
     digest: 9b95749a28251644335b057a69afaa4f056f7edd499ab498cf882d7f1144819d
     icon: https://flexkube.github.io/assets/logo.png
@@ -316,7 +337,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2020-07-31T10:00:59.060695576+02:00"
+    created: "2020-08-27T15:34:52.566275951+02:00"
     description: kube-apiserver Helm chart.
     digest: ab8b34ab6db7db604bee1363dba01d296db65df9d9a17757eba5acc7f3a228ee
     icon: https://flexkube.github.io/assets/logo.png
@@ -327,7 +348,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2020-07-31T10:00:59.060127733+02:00"
+    created: "2020-08-27T15:34:52.56571752+02:00"
     description: kube-apiserver Helm chart.
     digest: 8ff918f65fb654324334a130ff755e4ad39f9c6af7375dbc5dedb196198bcf88
     icon: https://flexkube.github.io/assets/logo.png
@@ -338,8 +359,19 @@ entries:
     version: 0.1.0
   kube-proxy:
   - apiVersion: v2
+    appVersion: 1.19.0
+    created: "2020-08-27T15:34:52.577769306+02:00"
+    description: Kubernetes kube-proxy Helm chart.
+    digest: 41baa5f3eb1487190662ea582acf9031ec14f8bdd4022218e1b00d04566c73c4
+    icon: https://flexkube.github.io/assets/logo.png
+    name: kube-proxy
+    type: application
+    urls:
+    - https://flexkube.github.io/charts/kube-proxy-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 1.18.6
-    created: "2020-07-31T10:00:59.073116465+02:00"
+    created: "2020-08-27T15:34:52.577283133+02:00"
     description: Kubernetes kube-proxy Helm chart.
     digest: ca8df1e9fd1c62479a22719be97370423a398ec1aad7a551992bde2879ccc09d
     icon: https://flexkube.github.io/assets/logo.png
@@ -350,7 +382,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.18.4
-    created: "2020-07-31T10:00:59.072716456+02:00"
+    created: "2020-08-27T15:34:52.576584435+02:00"
     description: Kubernetes kube-proxy Helm chart.
     digest: 8e12e0b1adb11093563d9126b433c1ff9092b8250097475bb3c2bc3d918a758d
     icon: https://flexkube.github.io/assets/logo.png
@@ -361,7 +393,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.18.3
-    created: "2020-07-31T10:00:59.072015246+02:00"
+    created: "2020-08-27T15:34:52.575922492+02:00"
     description: Kubernetes kube-proxy Helm chart.
     digest: cc445644d032775eaf015d5b9b2b0f433d84ba28017a5cf2226a7cafa193a634
     icon: https://flexkube.github.io/assets/logo.png
@@ -373,9 +405,9 @@ entries:
   kubelet-rubber-stamp:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2020-07-31T10:00:59.075714573+02:00"
+    created: "2020-08-27T15:34:52.580603707+02:00"
     description: A Helm chart for Kubelet Rubber Stamp
-    digest: 5520e0155256b3e4718817b1efb0b4affb496d241b8575d9b1a258c0cde5f3e6
+    digest: b45fe6ec1a9ca2c0f676e94bbeff25d86d7a10730dd00e222c5a2449dfbe34ea
     icon: https://flexkube.github.io/assets/logo.png
     name: kubelet-rubber-stamp
     type: application
@@ -384,7 +416,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2020-07-31T10:00:59.075347527+02:00"
+    created: "2020-08-27T15:34:52.580148838+02:00"
     description: A Helm chart for Kubelet Rubber Stamp
     digest: 4f36854a23f429b32c926cef273f77a07a66e78e6b09a8bd10dd3e914d166af1
     icon: https://flexkube.github.io/assets/logo.png
@@ -395,7 +427,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2020-07-31T10:00:59.074784207+02:00"
+    created: "2020-08-27T15:34:52.579541106+02:00"
     description: A Helm chart for Kubelet Rubber Stamp
     digest: 5906446b3ea60e5a74319f022ca35f356dee450cdb68e2594d455c7ee3a16dfc
     icon: https://flexkube.github.io/assets/logo.png
@@ -406,7 +438,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2020-07-31T10:00:59.074249466+02:00"
+    created: "2020-08-27T15:34:52.578937604+02:00"
     description: A Helm chart for Kubelet Rubber Stamp
     digest: 091570f72251eb3c660286592b9c198e10ac9b5decabe045fef58d31a5f776b5
     icon: https://flexkube.github.io/assets/logo.png
@@ -417,7 +449,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2020-07-31T10:00:59.073739803+02:00"
+    created: "2020-08-27T15:34:52.57836764+02:00"
     description: A Helm chart for Kubelet Rubber Stamp
     digest: c0cea4e43290b17d1385ac3765573f00dd62cb335dfdaf3bf3c76570a5f7e140
     icon: https://flexkube.github.io/assets/logo.png
@@ -428,8 +460,19 @@ entries:
     version: 0.1.0
   kubernetes:
   - apiVersion: v2
+    appVersion: 1.19.0
+    created: "2020-08-27T15:34:52.607971479+02:00"
+    description: Kubernetes self-hosted control plane Helm chart.
+    digest: fa94bfd25ffe42cad2ab4ddd41361cbd423a3f7f318a9f7ca124771c85b06e52
+    icon: https://flexkube.github.io/assets/logo.png
+    name: kubernetes
+    type: application
+    urls:
+    - https://flexkube.github.io/charts/kubernetes-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 1.18.6
-    created: "2020-07-31T10:00:59.110872017+02:00"
+    created: "2020-08-27T15:34:52.607565004+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: 2076c55060d805317c0d3a54bc462f1fc70f5d101a654755e0e5ca68e6d0e848
     icon: https://flexkube.github.io/assets/logo.png
@@ -440,7 +483,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 1.18.4
-    created: "2020-07-31T10:00:59.110340355+02:00"
+    created: "2020-08-27T15:34:52.606988513+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: aa071f6b03f2bc763b7d2378ba635e32928992fee14d8ce5cbdc3de869c9a1f8
     icon: https://flexkube.github.io/assets/logo.png
@@ -451,7 +494,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.18.3
-    created: "2020-07-31T10:00:59.109472175+02:00"
+    created: "2020-08-27T15:34:52.606407541+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: d101f3c03d8958cd8e5881e8b332c9a341bacdc400221ed2d90b30c134529a3c
     icon: https://flexkube.github.io/assets/logo.png
@@ -462,7 +505,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.18.3
-    created: "2020-07-31T10:00:59.108604587+02:00"
+    created: "2020-08-27T15:34:52.605823362+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: 24295349815a4dea56d78726d283d5ed722eebed4667e9423add2fcb0a65698d
     icon: https://flexkube.github.io/assets/logo.png
@@ -473,7 +516,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.18.2
-    created: "2020-07-31T10:00:59.081021939+02:00"
+    created: "2020-08-27T15:34:52.585980363+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: 58ea50d02986bf27f8a47c483b7ecb3457226fb093ed09108065920b1c9f4bac
     icon: https://flexkube.github.io/assets/logo.png
@@ -484,7 +527,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2020-07-31T10:00:59.079936284+02:00"
+    created: "2020-08-27T15:34:52.584633062+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: d30d3deb40ab319dd4ea8003faa8ea8a0286fff3d8cfa22525da1073ea2c3553
     icon: https://flexkube.github.io/assets/logo.png
@@ -495,7 +538,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 1.17.4
-    created: "2020-07-31T10:00:59.078746406+02:00"
+    created: "2020-08-27T15:34:52.583634894+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: b1bf1155d55eea6fee10190007e9d160c7bd115a862b2adebc8f350ca869e487
     icon: https://flexkube.github.io/assets/logo.png
@@ -506,7 +549,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 1.17.3
-    created: "2020-07-31T10:00:59.077562072+02:00"
+    created: "2020-08-27T15:34:52.582633322+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: df37e53da3f41a4da812c827daa0ac4e9c627c925c03a9ecd81ff30e912b028d
     icon: https://flexkube.github.io/assets/logo.png
@@ -517,7 +560,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 1.17.3
-    created: "2020-07-31T10:00:59.076601691+02:00"
+    created: "2020-08-27T15:34:52.581612523+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: ad3d3e4926dc7857f0555bdd9e3aef144384de60509f1539e38b76ab134df8b2
     icon: https://flexkube.github.io/assets/logo.png
@@ -528,7 +571,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.17.3
-    created: "2020-07-31T10:00:59.107842198+02:00"
+    created: "2020-08-27T15:34:52.605151169+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: 67678da8bb2583222bb83f711b76ecd659c9bc861293d20f524b638924f6e2d2
     icon: https://flexkube.github.io/assets/logo.png
@@ -539,7 +582,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.17.3
-    created: "2020-07-31T10:00:59.106777417+02:00"
+    created: "2020-08-27T15:34:52.604347981+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: f1cd7d52c864f6d83408ba1f57b7977feb4d63da7d36148845dc681ee0393a3e
     icon: https://flexkube.github.io/assets/logo.png
@@ -550,7 +593,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.17.2
-    created: "2020-07-31T10:00:59.105696123+02:00"
+    created: "2020-08-27T15:34:52.603605119+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: d04e3aecc1a31a28fee385fc4a57d86a2589b3519d33043b93bca9fd65b35121
     icon: https://flexkube.github.io/assets/logo.png
@@ -561,7 +604,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.17.2
-    created: "2020-07-31T10:00:59.10460991+02:00"
+    created: "2020-08-27T15:34:52.60298727+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: 292a99a7ac57d7d2da0304f87183b411f82122d0377358d765510c562dabb95c
     icon: https://flexkube.github.io/assets/logo.png
@@ -572,7 +615,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2020-07-31T10:00:59.103302971+02:00"
+    created: "2020-08-27T15:34:52.602342143+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: 98a50fef4083eeb5b787c4bf24f259ab193e8c1afc88071a11e3e0085b2348ce
     icon: https://flexkube.github.io/assets/logo.png
@@ -583,7 +626,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2020-07-31T10:00:59.092252887+02:00"
+    created: "2020-08-27T15:34:52.593731033+02:00"
     description: Kubernetes self-hosted control plane Helm chart.
     digest: ebf9aee456bb31d2a855469b9d6cceb6dfb29f9ed6736736b74831d4d3a9dc8f
     icon: https://flexkube.github.io/assets/logo.png
@@ -595,10 +638,10 @@ entries:
   tls-bootstrapping:
   - apiVersion: v2
     appVersion: 1.18.3
-    created: "2020-07-31T10:00:59.111782719+02:00"
+    created: "2020-08-27T15:34:52.608632012+02:00"
     description: A Helm chart providing manifests required for Kubelet TLS Bootstrapping
       process.
-    digest: eef94279ea5ea4721584946f435f566ed6f58f399c6f911a6871fa7a0af01573
+    digest: c1c75662305eb43314eb65d76e3e004b24c5299874320d0ebbbebea2a0ed82d4
     name: tls-bootstrapping
     type: application
     urls:
@@ -606,7 +649,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.18.3
-    created: "2020-07-31T10:00:59.111461806+02:00"
+    created: "2020-08-27T15:34:52.608388047+02:00"
     description: A Helm chart providing manifests required for Kubelet TLS Bootstrapping
       process.
     digest: 4f88b74fc24971e52822d97a593271c7f8a6fcf3dba18f315423097a2c6fb72b
@@ -615,4 +658,4 @@ entries:
     urls:
     - https://flexkube.github.io/charts/tls-bootstrapping-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-31T10:00:59.039769372+02:00"
+generated: "2020-08-27T15:34:52.546855516+02:00"
