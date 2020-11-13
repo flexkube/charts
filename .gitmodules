@@ -22,3 +22,6 @@
 [submodule "metrics-server-helm-chart"]
 	path = metrics-server-helm-chart
 	url = https://github.com/flexkube/metrics-server-helm-chart.git
+[submodule "coredns-helm-chart"]
+	path = coredns-helm-chart
+	url = https://github.com/flexkube/coredns-helm-chart.git
