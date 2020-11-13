@@ -19,3 +19,6 @@
 [submodule "kube-proxy-helm-chart"]
 	path = kube-proxy-helm-chart
 	url = https://github.com/flexkube/kube-proxy-helm-chart.git
+[submodule "metrics-server-helm-chart"]
+	path = metrics-server-helm-chart
+	url = https://github.com/flexkube/metrics-server-helm-chart.git
